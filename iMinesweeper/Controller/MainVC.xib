@@ -10,6 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainVC" customModule="iMinesweeper" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundView" destination="RsI-X2-2dK" id="rb1-3T-JZL"/>
+                <outlet property="gameView" destination="QRe-d1-llZ" id="Stv-wm-Gg5"/>
+                <outlet property="headerView" destination="SvJ-kG-co5" id="4aV-kf-cBd"/>
+                <outlet property="tabView" destination="XHx-lP-3OU" id="XAD-5z-JBJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,7 +32,7 @@
                                     <rect key="frame" x="17" y="17" width="758" height="173.5"/>
                                     <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRe-d1-llZ">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRe-d1-llZ" customClass="GameView" customModule="iMinesweeper" customModuleProvider="target">
                                     <rect key="frame" x="17" y="207.5" width="758" height="758"/>
                                     <color key="backgroundColor" systemColor="systemBrownColor"/>
                                     <constraints>
@@ -56,7 +60,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <color key="backgroundColor" red="0.3172658451" green="0.3172658451" blue="0.3172658451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="RsI-X2-2dK" secondAttribute="trailing" constant="4" id="1FF-85-uEM"/>
                         <constraint firstItem="RsI-X2-2dK" firstAttribute="top" secondItem="HeN-Vo-kkL" secondAttribute="top" constant="4" id="7lo-zR-x1w"/>
@@ -85,9 +89,6 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
