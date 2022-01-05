@@ -1,7 +1,7 @@
 # iMinesweeper
 
 
-![alt text](https://minesweeper.online/img/world-of-minesweeper.png)
+![iMinesweeper](https://minesweeper.online/img/world-of-minesweeper.png)
 
 
 ---
