@@ -11,7 +11,7 @@ class MainVC: UIViewController {
 
     @IBOutlet weak var headerView: HeaderView!
     @IBOutlet weak var gameView: GameView!
-    @IBOutlet weak var tabView: UIView!
+    @IBOutlet weak var tabView: TabView!
     
     @IBOutlet weak var backgroundView: UIView!{
         didSet {

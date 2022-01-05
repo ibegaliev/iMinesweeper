@@ -29,19 +29,19 @@
                             <rect key="frame" x="4" y="4" width="792" height="1121"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvJ-kG-co5" customClass="HeaderView" customModule="iMinesweeper" customModuleProvider="target">
-                                    <rect key="frame" x="17" y="17" width="758" height="173.5"/>
-                                    <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                    <rect key="frame" x="17" y="17" width="758" height="147.5"/>
+                                    <color key="backgroundColor" systemColor="systemRedColor"/>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRe-d1-llZ" customClass="GameView" customModule="iMinesweeper" customModuleProvider="target">
-                                    <rect key="frame" x="17" y="207.5" width="758" height="758"/>
-                                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                    <rect key="frame" x="17" y="181.5" width="758" height="758"/>
+                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="QRe-d1-llZ" secondAttribute="height" id="k67-Or-gGQ"/>
                                     </constraints>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHx-lP-3OU">
-                                    <rect key="frame" x="17" y="982.5" width="758" height="121.5"/>
-                                    <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHx-lP-3OU" customClass="TabView" customModule="iMinesweeper" customModuleProvider="target">
+                                    <rect key="frame" x="17" y="956.5" width="758" height="147.5"/>
+                                    <color key="backgroundColor" red="0.27936727794824195" green="0.30206990979381443" blue="0.16608384647863192" alpha="0.83430558749999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -54,7 +54,7 @@
                                 <constraint firstAttribute="trailing" secondItem="QRe-d1-llZ" secondAttribute="trailing" constant="17" id="FWm-rN-lir"/>
                                 <constraint firstItem="XHx-lP-3OU" firstAttribute="top" secondItem="QRe-d1-llZ" secondAttribute="bottom" constant="17" id="FuH-dm-PRm"/>
                                 <constraint firstItem="SvJ-kG-co5" firstAttribute="top" secondItem="RsI-X2-2dK" secondAttribute="top" constant="17" id="LfH-RD-Tsc"/>
-                                <constraint firstItem="XHx-lP-3OU" firstAttribute="height" secondItem="SvJ-kG-co5" secondAttribute="height" multiplier="0.7" id="bbn-gE-RW5"/>
+                                <constraint firstItem="XHx-lP-3OU" firstAttribute="height" secondItem="SvJ-kG-co5" secondAttribute="height" id="bbn-gE-RW5"/>
                                 <constraint firstItem="SvJ-kG-co5" firstAttribute="leading" secondItem="RsI-X2-2dK" secondAttribute="leading" constant="17" id="cO6-tI-8wl"/>
                                 <constraint firstItem="QRe-d1-llZ" firstAttribute="leading" secondItem="RsI-X2-2dK" secondAttribute="leading" constant="17" id="raT-zy-hgW"/>
                             </constraints>
@@ -84,11 +84,11 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

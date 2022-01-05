@@ -1,19 +1,21 @@
 //
-//  GameView.swift
+//  TabView.swift
 //  iMinesweeper
 //
 //  Created by ibrohim begaliev on 1/6/22.
 //
 
+import Foundation
 import UIKit
 
-class GameView: UIView {
+
+class TabView: UIView {
     
     var containerImageView: UIImageView = {
-        let backImage = UIImageView()
-        backImage.translatesAutoresizingMaskIntoConstraints = false
-        backImage.image = UIImage(named: "Container")
-        return backImage
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.image = UIImage(named: "background")
+        return imageView
     }()
     
     var containerView: UIView = {
@@ -25,7 +27,7 @@ class GameView: UIView {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        setBackGround()
+        setBackground()
     }
     
     override init(frame: CGRect) {
@@ -33,13 +35,14 @@ class GameView: UIView {
         
     }
     
+    
+    
 }
 
 
-extension GameView {
+extension TabView {
     
-    func setBackGround(){
-        
+    func setBackground(){
         addSubview(containerImageView)
         NSLayoutConstraint.activate([
             containerImageView.topAnchor.constraint(equalTo: self.topAnchor),
