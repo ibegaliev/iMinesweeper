@@ -14,6 +14,7 @@
 		8C4284E02785B035001900A3 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4284DE2785B035001900A3 /* MainVC.xib */; };
 		8C4284E32785B098001900A3 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4284E22785B098001900A3 /* AppColor.swift */; };
 		8C4284E52785B185001900A3 /* arcade_classic_2 in Resources */ = {isa = PBXBuildFile; fileRef = 8C4284E42785B185001900A3 /* arcade_classic_2 */; };
+		8C4284EC2785B4EC001900A3 /* CustomCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4284EB2785B4EC001900A3 /* CustomCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C4284DE2785B035001900A3 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 		8C4284E22785B098001900A3 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		8C4284E42785B185001900A3 /* arcade_classic_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = arcade_classic_2; sourceTree = "<group>"; };
+		8C4284EB2785B4EC001900A3 /* CustomCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 				8C4284C92785ACF5001900A3 /* AppDelegate.swift */,
 				8C4284E62785B18B001900A3 /* Helpers */,
 				8C4284E12785B086001900A3 /* Model */,
-				8C4284DD2785B035001900A3 /* MainVC.swift */,
-				8C4284DE2785B035001900A3 /* MainVC.xib */,
+				8C4284E92785B4BB001900A3 /* Views */,
+				8C4284E82785B47C001900A3 /* Controller */,
 				8C4284D22785ACF7001900A3 /* Assets.xcassets */,
 				8C4284D42785ACF7001900A3 /* LaunchScreen.storyboard */,
 				8C4284D72785ACF7001900A3 /* Info.plist */,
@@ -84,6 +86,23 @@
 				8C4284E42785B185001900A3 /* arcade_classic_2 */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8C4284E82785B47C001900A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C4284DE2785B035001900A3 /* MainVC.xib */,
+				8C4284DD2785B035001900A3 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C4284E92785B4BB001900A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C4284EB2785B4EC001900A3 /* CustomCVC.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4284EC2785B4EC001900A3 /* CustomCVC.swift in Sources */,
 				8C4284CA2785ACF5001900A3 /* AppDelegate.swift in Sources */,
 				8C4284DF2785B035001900A3 /* MainVC.swift in Sources */,
 				8C4284E32785B098001900A3 /* AppColor.swift in Sources */,
