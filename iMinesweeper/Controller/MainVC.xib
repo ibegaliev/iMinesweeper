@@ -24,7 +24,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RsI-X2-2dK">
                             <rect key="frame" x="4" y="4" width="792" height="1121"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvJ-kG-co5">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvJ-kG-co5" customClass="HeaderView" customModule="iMinesweeper" customModuleProvider="target">
                                     <rect key="frame" x="17" y="17" width="758" height="173.5"/>
                                     <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 </view>
