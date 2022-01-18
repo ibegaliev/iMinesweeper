@@ -5,4 +5,4 @@
 
 
 ---
-by Ibrokhim Begaliev
+by @ibegaliev
