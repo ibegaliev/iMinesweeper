@@ -43,18 +43,50 @@ extension HeaderView {
     func setBackground(){
         addSubview(containerImageView)
         NSLayoutConstraint.activate([
-            containerImageView.topAnchor.constraint(equalTo: self.topAnchor),
-            containerImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            containerImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            containerImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor)
+            containerImageView.topAnchor.constraint(
+                equalTo:
+                    self.topAnchor
+            ),
+            containerImageView.bottomAnchor.constraint(
+                equalTo:
+                    self.bottomAnchor
+            ),
+            containerImageView.leadingAnchor.constraint(
+                equalTo:
+                    self.leadingAnchor
+            ),
+            containerImageView.trailingAnchor.constraint(
+                equalTo:
+                    self.trailingAnchor
+            )
         ])
         
         addSubview(containerView)
         NSLayoutConstraint.activate([
-            containerView.topAnchor.constraint(equalTo: self.topAnchor, constant: 4),
-            containerView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -4),
-            containerView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 4),
-            containerView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -4)
+            containerView.topAnchor.constraint(
+                equalTo:
+                    self.topAnchor,
+                constant:
+                    4
+            ),
+            containerView.bottomAnchor.constraint(
+                equalTo:
+                    self.bottomAnchor,
+                constant:
+                    -4
+            ),
+            containerView.leadingAnchor.constraint(
+                equalTo:
+                    self.leadingAnchor,
+                constant:
+                    4
+            ),
+            containerView.trailingAnchor.constraint(
+                equalTo:
+                    self.trailingAnchor,
+                constant:
+                    -4
+            )
         ])
         
     }
